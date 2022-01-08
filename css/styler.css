@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/Roboto-Bold.ttf);
+  }
+  
+  .mudja {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+  
+  
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  @font-face {
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../assets/fonts/Roboto-Light.ttf);
+  }
+  
+  body{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+    background-color: #23272A;
+  }
+
+.amnesiaboxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.amnesiashopbox {
+    background-color: #2C2F33;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    margin: 16px 21px;
+    transition: 0.41s;
+}
+
+.amnesiashopbox:hover {
+    box-shadow: 1px 1px 9px 5px rgba(1, 101, 251, 1);
+}
+
+.amnesiashopbox h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.amnesiashopbox p {
+    color: #c0c0c0;
+    font-size: 12.5px;
+    padding: 0 15px;
+}
+
+.amnesiashopbox h3 {
+    color: #fff;
+    font-size: 13.4px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.amnesiashopbox .boxtext {
+    position: absolute;
+    left: 12px;
+    bottom: 5px;
+}
+
+.amnesiashopbox .boxtext2 {
+    position: absolute;
+    right: 12px;
+    bottom: 5px;
+}
+
+.peopleslist {
+  position: fixed;
+  z-index: 9999;
+  background-color: #23272A;
+  border-radius: 30px;
+  width: 250px;
+  height: 95vh;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 20px;
+  scroll-behavior: smooth;
+  overflow: auto;
+  opacity: 0;
+}
+
+.peopleslist h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+.peopleslist p {
+  color: rgb(175, 175, 175);
+  margin-bottom: -5px;
+  padding: 0 15px;
+}
